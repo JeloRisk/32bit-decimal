@@ -1,0 +1,35 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+		<link rel="manifest" href="assets/favicon/site.webmanifest" />
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Standard Calculator 1.1</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+	</head>
+
+	<body>
+		<section class="app" id="app">
+			<form id="form">
+				<h1>Truth Table Generator</h1>
+				<div class="point">
+					<input type="number" name="yourName" class="input" id="inout" onfocus="this.value=''" placeholder="Enter all variable" />
+					<input type="submit" id="submit-button" value="go" />
+				</div>
+			</form>
+		</section>
+		<section id="modal">
+			<h1>Result</h1>
+			<table></table>
+		</section>
+
+		<script src="script.js"></script>
+	</body>
+</html>
